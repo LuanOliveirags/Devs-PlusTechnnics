@@ -130,7 +130,7 @@
 
 
 
-/*Titulo e corpo*/
+/*Titulo*/
 header {
     height: calc( 25vh - 100px);
 
@@ -169,11 +169,46 @@ header p {
     margin-bottom: 10px;
     }
 
+/*Final Titulo*/
+
+
+/*Card info qsomos*/
+.qsomos{
+    text-align: center;
+    background-image:url(img/1.jpg) ;
+    background-size: 100%;
+    height: 100vh;
+}
+
+.qsomos .card{
+    width: 250px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 24px 0px;
+    margin: auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.qsomos .card-image{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+
+}
+.qsomos .card ul {
+    margin: 0 30px;
+}
+/*Final Cards qsomos*/
+
+
 /*Card info serivos 0*/
 .servicos{
     text-align: center;
     background: black;
-height: 500px;
+    height: 100vh;
 
 }
 
@@ -186,11 +221,7 @@ height: 500px;
     margin: auto;
     max-width: 950px;
     flex-wrap: wrap;
-    justify-content: center;
-    
-margin: auto;
-
-    
+    justify-content: center; 
 }
 
 .servicos .card-image{
@@ -208,7 +239,7 @@ margin: auto;
 .servicos1{
     text-align: center;
     background: black;
-height: 500px;
+    height: 100vh;
 }
 
 .servicos1 .card{
@@ -220,11 +251,7 @@ height: 500px;
     margin: auto;
     max-width: 950px;
     flex-wrap: wrap;
-    justify-content: center;
-    
-margin: auto;
-
-    
+    justify-content: center; 
 }
 
 .servicos1 .card-image{
@@ -238,40 +265,6 @@ margin: auto;
 }
 /*Final Cards Serviços*/
 
-/*Card info qsomos*/
-.qsomos{
-    text-align: center;
-    background-image:url(img/1.jpg) ;
-    background-size: 100%;
-    height: 500px;
-}
-
-.qsomos .card{
-    width: 250px;
-    height: 350px;
-    background: rgba(0, 0, 0, 0);
-    border-radius: 24px 0px;
-    margin: auto;
-    max-width: 1000px;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-margin: auto;
-
-    
-}
-
-.qsomos .card-image{
-    
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-
-}
-.qsomos .card ul {
-    margin: 0 30px;
-}
-/*Final Cards qsomos*/
 
 /*Card info contatos*/
 .contato{
@@ -288,11 +281,7 @@ margin: auto;
     margin: auto;
     max-width: 1000px;
     flex-wrap: wrap;
-    justify-content: center;
-    
-margin: auto;
-
-    
+    justify-content: center;  
 }
 
 .contato .card-image{
