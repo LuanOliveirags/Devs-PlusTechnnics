@@ -5,14 +5,14 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-/*MENU INICIAL RESPONSIVO*/
+/*MENU INICIAL RESPONSIVO Desktop*/
 .nav-bar {
     background-image:url(img/1.jpg) ;
     background-size: 100%;
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-
+    
 }
 
 .logo {
@@ -27,12 +27,14 @@
 .nav-list {
     display: flex;
     align-items: center;
+    
 }
 
 .nav-list ul {
     display: flex;
     justify-content: center;
     list-style: none;
+    
 }
 
 .nav-item {
@@ -44,7 +46,12 @@
     font-size: 1.15rem;
     color: #fff;
     font-weight: 400;
+    
 }
+
+/*FIM MENU INICIAL RESPONSIVO Desktop*/
+
+/*MENU INICIAL RESPONSIVO Mobile*/
 
 .whats-button button {
     border: none;
@@ -118,7 +125,7 @@
         display: block;
     }
 }
-/*FIM INICIAL RESPONSIVO*/
+/*FIM INICIAL RESPONSIVO Mobile*/
 
 
 
@@ -161,10 +168,6 @@ header p {
     .header-content h1{
     margin-bottom: 10px;
     }
-
-
-
-
 
 /*Card info serivos 0*/
 .servicos{
@@ -306,62 +309,7 @@ margin: auto;
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* About */
-#features {
-    width: 100%;
-    background: #222;
-    color: #eee;
-    padding: 50px;
-    align-items: center;
-}
-
-#features-container {
-    width: 100%;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 50px;
-    align-items: center;
-}
-
-.feature {
-    display: flex;
-    flex-direction: column;
-    background: #333;
-    padding: 20px;
-    border-radius: 5px;
-    align-items: center;
-}
-
-.feature-title {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-
-
-
-/* Footer */
+/* Roda-pé */
 #footer {
     background-image:url(img/1.jpg) ;
     background-size: 100%;
@@ -369,8 +317,10 @@ margin: auto;
     padding: 30px;
     text-align: center;
 }
+/* Final Roda-pé */
 
 
+/* Color */
 p{color:ghostwhite; }
 h1{color: ghostwhite;}
 h2{color:ghostwhite; }
@@ -381,6 +331,5 @@ form{color:ghostwhite;}
 label{color: ghostwhite;}
 li{color: ghostwhite;}
 ul{color: ghostwhite;}
-navbar{color: rgb(0, 0, 0);}
-
+/* Final  Color */
 
