@@ -12,9 +12,6 @@
     display: flex;
     justify-content: space-between;
     padding: 1.5rem 6rem;
-    position: fixed;
-    height: 80px;
-    width: 100%;
 
 }
 
