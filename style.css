@@ -45,14 +45,14 @@
     font-weight: 400;
 }
 
-.login-button button {
+.whats-button button {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
     background-color: #0187a7;
 }
 
-.login-button button a {
+.whats-button button a {
     text-decoration: none;
     color: #fff;
     font-weight: 500;
@@ -79,7 +79,7 @@
     .nav-item {
         display: none;
     }
-    .login-button {
+    .whats-button {
         display: none;
     }
     .mobile-menu-icon {
@@ -104,13 +104,13 @@
         padding-top: 1.2rem;
         background-color: rgb(0, 0, 0);
     }
-    .mobile-menu .login-button {
+    .mobile-menu .whats-button {
         display: block;
         padding: 1rem 2rem;
         background-image:url(img/1.jpg) ;
         background-size: 100%;
     }
-    .mobile-menu .login-button button {
+    .mobile-menu .whats-button button {
         width: 100%;
     }
     .open {
