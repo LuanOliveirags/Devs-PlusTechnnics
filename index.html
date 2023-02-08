@@ -3,36 +3,57 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media="screen and (max-width: 768px)" href="css/mobile.css">
-    <title>Plus tech</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Plus Tech</title>
 </head>
 
 <body>
-    <nav id="navbar">
-        <div id="navbar-container">
-            <a href="index.html"> <img src="img/Plus tech 5.png" width="150"></a>
-            <ul id="navbar-items">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="#quemsomos">Sobre</a></li>
-                <li><a href="#servico">Serviços</a></li>
-                <li><a href="#contatos">Contatos</a></li>
-            </ul>
-        </div>
-    </nav>
+        <!--MENU INICIAL RESPONSIVO-->
+        <nav class="nav-bar">
+            <div class="logo">
+                <a href="index.html"> <img src="img/Logo1.png" width="150"></a>
 
-	<header>
-        <br>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="#quemsomos" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#servico" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="https://wa.me/5511946114970">WhatsApp</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="img/iconMenu.png" width="25"></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="#quemsomos" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="#servico" class="nav-link">Serviços</a></li>
+                <li class="nav-item"><a href="#contatos" class="nav-link">Contatos</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="https://wa.me/5511946114970">WhatsApp</a></button>
+            </div>
+        </div>
+        <!--FIM MENU INICIAL RESPONSIVO-->
+
+        <!--TITULO-->
+        <header>
         <div class="header-content">
             <h1> Plus Technics </h1>
             <h5>O futuro é um começo.</h5>
-
-
-
         </div>
-        
-	</header>
+        </header>
+        <!--FINAL TITULO-->
 
     <section id="quemsomos" class="qsomos">
         <div class="card">
@@ -119,13 +140,6 @@ Estamos a dispor em resolver problemas e trazer soluções elementares aos nosso
         <a href="https://www.instagram.com/luanoliveirags/"> <img class = "image-rodape" src="img/instagram.png"width="25"></a>
         
     </footer>
-
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/f9e19193d6.js" crossorigin="anonymous"></script>
-
-    <!-- jQuery CDN -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
-        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 
     <!-- Our JS file -->
     <script src="js/main.js"></script>
