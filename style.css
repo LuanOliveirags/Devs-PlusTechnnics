@@ -13,6 +13,10 @@
     justify-content: space-between;
     padding: 1.5rem 6rem;
     position: fixed;
+    height: 80px;
+    height: 500px;
+    width: 100%;
+
 }
 
 .logo {
