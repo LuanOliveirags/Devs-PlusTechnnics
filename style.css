@@ -127,9 +127,6 @@
 }
 /*FIM INICIAL RESPONSIVO Mobile*/
 
-
-
-
 /*Titulo*/
 header {
     height: calc( 25vh - 100px);
@@ -170,7 +167,6 @@ header p {
     }
 
 /*Final Titulo*/
-
 
 /*Card info qsomos*/
 .qsomos{
