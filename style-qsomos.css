@@ -127,46 +127,37 @@
 }
 /*FIM INICIAL RESPONSIVO Mobile*/
 
-/*Titulo*/
-header {
-    height: calc( 25vh - 100px);
-
-    background: black;
-    background-repeat: no-repeat center cover;
+/*Card info qsomos*/
+.qsomos{
+    text-align: center;
+    background-color: black;
     background-size: 100%;
-    background-repeat: no-repeat;
-
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 500px;
 }
 
-header {
-
-    text-align: center;
+.qsomos .card{
+    width: 250px;
+    height: 350px;
+    background: rgba(0, 0, 0, 0);
+    border-radius: 24px 0px;
+    margin: auto;
+    max-width: 1000px;
+    flex-wrap: wrap;
+    justify-content: center;    
 }
 
-header h2 {
-    font-size: 2.5rem;
-}
-
-header p {
-    font-size: 1.2rem;
-    padding: 7px 0;
-}
-.header-content{
-    max-width: 1000px;  
-    margin: 10px auto;
-    text-align: center;
+.qsomos .card-image{
     
-    }
-    
-    .header-content h1{
-    margin-bottom: 10px;
-    }
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
 
-/*Final Titulo*/
+}
+.qsomos .card ul {
+    margin: 0 30px;
+}
+/*Final Cards qsomos*/
+
 
 /* Roda-pé */
 #footer {
