@@ -7,7 +7,7 @@
 
 /*MENU INICIAL RESPONSIVO Desktop*/
 .nav-bar {
-    background-image:url(img/tec2.jpg) ;
+    background-color: rgb(36, 34, 34);
     background-size: 100%;
     display: flex;
     justify-content: space-between;
@@ -78,7 +78,7 @@
 @media screen and (max-width: 730px) {
     .nav-bar {
         padding: 1rem 2rem;
-        background-image:url(img/tec2.jpg) ;
+        background-color: rgb(36, 34, 34);
         background-size: 100%;
         display: flex;
         justify-content: space-between;
@@ -115,7 +115,7 @@
     .mobile-menu .whats-button {
         display: block;
         padding: 1rem 2rem;
-        background-image:url(img/tec2.jpg) ;
+        background-color: rgb(36, 34, 34);
         background-size: 100%;
     }
     .mobile-menu .whats-button button {
@@ -198,7 +198,7 @@
 
 /* Roda-pé */
 #footer {
-    background-image:url(img/tec2.jpg) ;
+    background-color: rgb(36, 34, 34);
     background-size: 100%;
     color: #eee;
     padding: 30px;
