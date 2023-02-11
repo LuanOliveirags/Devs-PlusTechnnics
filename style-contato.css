@@ -52,21 +52,6 @@
 /*FIM MENU INICIAL RESPONSIVO Desktop*/
 
 /*MENU INICIAL RESPONSIVO Mobile*/
-
-.whats-button button {
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: rgb(65, 2, 85);
-}
-
-.whats-button button a {
-    text-decoration: none;
-    color: ghostwhite;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
 .mobile-menu-icon {
     display: none;
 }
@@ -85,9 +70,6 @@
 
     }
     .nav-item {
-        display: none;
-    }
-    .whats-button {
         display: none;
     }
     .mobile-menu-icon {
@@ -112,22 +94,13 @@
         padding-top: 1.2rem;
         background-color: rgb(36, 34, 34);
     }
-    .mobile-menu .whats-button {
-        display: block;
-        padding: 1rem 2rem;
-        background-color: rgb(36, 34, 34);
-        background-size: 100%;
-    }
-    .mobile-menu .whats-button button {
-        width: 100%;
-    }
     .open {
         display: block;
     }
     .nav-link {
         text-decoration: none;
         font-size: 1.15rem;
-        color: black;
+        color: ghostwhite;
         font-weight: 400;
         
     }
