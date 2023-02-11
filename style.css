@@ -86,14 +86,14 @@
         flex-direction: column;
         text-align: center;
         padding-bottom: 1rem;
-        background-color: ghostwhite;
+        background-color: rgb(36, 34, 34);
         background-size: 100%;
     
     }
     .mobile-menu .nav-item {
         display: block;
         padding-top: 1.2rem;
-        background-color: ghostwhite;
+        background-color: rgb(36, 34, 34);
     }
     .open {
         display: block;
@@ -154,7 +154,7 @@ header p {
 
 /* Roda-pé */
 .footer {
-    background-color: rgb(36, 34, 34);
+    background-color: rgb(48, 46, 46);
     background-size: 100%;
     color: ghostwhite;
     padding: 30px;
