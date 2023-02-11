@@ -52,21 +52,6 @@
 /*FIM MENU INICIAL RESPONSIVO Desktop*/
 
 /*MENU INICIAL RESPONSIVO Mobile*/
-
-.whats-button button {
-    border: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-    background-color: rgb(65, 2, 85);
-}
-
-.whats-button button a {
-    text-decoration: none;
-    color: ghostwhite;
-    font-weight: 500;
-    font-size: 1.1rem;
-}
-
 .mobile-menu-icon {
     display: none;
 }
@@ -85,9 +70,6 @@
 
     }
     .nav-item {
-        display: none;
-    }
-    .whats-button {
         display: none;
     }
     .mobile-menu-icon {
@@ -111,15 +93,6 @@
         display: block;
         padding-top: 1.2rem;
         background-color: ghostwhite;
-    }
-    .mobile-menu .whats-button {
-        display: block;
-        padding: 1rem 2rem;
-        background-color: rgb(36, 34, 34);
-        background-size: 100%;
-    }
-    .mobile-menu .whats-button button {
-        width: 100%;
     }
     .open {
         display: block;
@@ -196,6 +169,8 @@
 }
 /*Final Cards Serviços*/
 
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+
 /* Roda-pé */
 #footer {
     background-color: rgb(36, 34, 34);
@@ -205,8 +180,6 @@
     text-align: center;
 }
 /* Final Roda-pé */
-
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
 
 
 /* Color */

@@ -164,6 +164,8 @@
 }
 /*Final Cards contatos*/
 
+.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
+
 /* Roda-pé */
 #footer {
     background-color: rgb(36, 34, 34);
@@ -173,9 +175,6 @@
     text-align: center;
 }
 /* Final Roda-pé */
-
-.whats{ position: fixed; bottom: 10px; right:10px; z-index: 9999;}
-
 
 /* Color */
 p{color:black; }
